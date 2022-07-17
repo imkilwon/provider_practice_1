@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:provider_practice/pages/adaptive.dart';
 import 'pages/FittedBox.dart';
 import 'pages/Stepper.dart';
 import 'pages/showSearch.dart';
@@ -16,7 +17,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: Colors.amber,
       ),
-      home: showSearch_practice(),
+      home: Adapted_Practice(),
     );
   }
 }
